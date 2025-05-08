@@ -1,0 +1,26 @@
+{
+  "name": "twilio",
+  "version": "1.0.0",
+  "description": "Text Message ,Voice message Sender on Phone number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "iamdeepak199"
+  },
+  "keywords": [
+    "twilio",
+    "text-message",
+    "voice",
+    "call"
+  ],
+  "author": "deepak bhardwaj",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.5.0",
+    "twilio": "^5.6.0"
+  }
+}
