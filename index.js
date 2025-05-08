@@ -10,7 +10,7 @@ client.messages
         from: process.env.MY_TWILIO_PHONE_NUMBER,
         to: '+919643762201'
     })
-    .then(message => console.log(chalk.black.italic.bgBlue('Message is sent on this SID Number  ' + message.sid)))
+    .then(message => console.log(chalk.black.italic.bgBlue('Message is sent on this SID Number' + message.sid)))
 
 
     .catch(error => console.error('Error sending SMS:', error)); 
